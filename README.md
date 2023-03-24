@@ -4,6 +4,7 @@
 In this project the fairness in datasets is measured. In addition unfairness prevention techniques are applied for different classifiers after which the accuracy and fairness of the respective classifier is measured.
 - Datasets: Adult (adult.csv), COMPAS (compass-scores.csv) and AdviceRobo (not publicly available)
 - Datasets not suitable for research: Toy example, Simulated data, German Credit, Communities and Crime, Bank Marketing
+- Notions of fairness: conditional demographic parity (get_d_unfair()), individual fairness (get_unfair_instances())
 - Classifiers: naïve bayes, k-nearest neighbors, decision tree, logistic regression
 - Unfairness prevention techniques: Probabilistic Rejection, Fair Reweighing, Fair Preferential Sampling, Fair Relabeling (each technique can be found under its respective markdown cell)
 
