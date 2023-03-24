@@ -1,8 +1,11 @@
 # Fairness-aware-classification
 
 ## Project description
-This project is about fairness-aware classification. Unfairness is measured in the datasets Adult (adult.csv), COMPAS (compass-scores.csv) and AdviceRobo (not publicly available). Four classifiers are used to determine the accuracy-fairness trade-off. The used techniques for unfairness prevention are Probabilistic Rejection, Fair Reweighing, Fair Preferential Sampling and Fair Relabeling which can all be found under their respective markdown cell. 
-‘Toy example’, ‘Simulated data’, ‘German Credit’, ‘Communities and Crime’, ‘Bank Marketing’ were used as test datasets, but were not suitable for research and are therefore commented.
+In this project the fairness in datasets is measured. In addition unfairness prevention techniques are applied for different classifiers after which the accuracy and fairness of the respective classifier is measured.
+- Datasets: Adult (adult.csv), COMPAS (compass-scores.csv) and AdviceRobo (not publicly available)
+- Datasets not suitable for research: Toy example, Simulated data, German Credit, Communities and Crime, Bank Marketing
+- Classifiers: naïve bayes, k-nearest neighbors, decision tree, logistic regression
+- Unfairness prevention techniques: Probabilistic Rejection, Fair Reweighing, Fair Preferential Sampling, Fair Relabeling (each technique can be found under its respective markdown cell)
 
 ## How to use the project
 If you wish to use a specific technique (with tuned hyperparameters) simply go to the respective markdown cell and comment out the dataset/classifier for which you wish to apply the technique on. Each function contains a docstring explaining the purpose of the function and its parameters/output. For some lines of code there exists some extra explanation as comment above the specific line.
