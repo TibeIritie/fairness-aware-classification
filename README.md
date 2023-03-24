@@ -9,7 +9,7 @@ In this project the fairness in datasets is measured. In addition unfairness pre
 - Unfairness prevention techniques: Probabilistic Rejection, Fair Reweighing, Fair Preferential Sampling, Fair Relabeling (each technique can be found under its respective markdown cell)
 
 ## How to use the project
-If you wish to use a specific technique (with tuned hyperparameters) simply go to the respective markdown cell and comment out the dataset/classifier for which you wish to apply the technique on. Each function contains a docstring explaining the purpose of the function and its parameters/output. For some lines of code there exists some extra explanation as comment above the specific line.
+If you wish to use a specific technique (with tuned hyperparameters) simply go to the respective markdown cell and comment out the classifier/dataset for which you wish to apply the technique on. Each function contains a docstring explaining the purpose of the function and its parameters/output. For some lines of code there exists some extra explanation as comment above the specific line.
 
 ## Explanation of most important markdown sections
 - Import modules & define global variables: specify the path where to save all outputs here, for importing the datasets you have to manually change the code lines with ‘pd.read_csv(…)’
