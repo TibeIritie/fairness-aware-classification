@@ -11,6 +11,39 @@ In this project the fairness in datasets is measured. In addition unfairness pre
 ## How to use the project
 If you wish to use a specific technique (with tuned hyperparameters) simply go to the respective markdown cell and comment out the classifier/dataset for which you wish to apply the technique on. Each function contains a docstring explaining the purpose of the function and its parameters/output. For some lines of code there exists some extra explanation as comment above the specific line.
 
+## Structure of Jupyter Notebook file
+├── Import modules & define global variables
+├── Functions
+│   ├── Data cleaning
+│   ├── Data exploration
+│   ├── Detect group unfairness
+│   ├── Train classifier
+│   ├── Show metrics
+│   ├── Group unfairness prevention
+├── Load datasets + define sensitive/explanatory attributes
+│   ├── Toy example
+│   ├── Simulated data
+│   ├── German Credit
+│   ├── Adult
+│   ├── Communities and Crime
+│   ├── Bank Marketing
+│   ├── COMPAS
+│   ├── AdviceRobo
+│   │   ├── Try age as sensitive attribute
+│   │   ├── Continue with language as sensitive attribute
+├── Individual fairness
+│   ├── Optimize weights functions
+│   ├── Detect unfair instances functions
+│   ├── Get weights, d_matrix, m for all datasets
+├── Probabilistic Rejection
+├── Fair Reweighing
+├── Fair Preferential Sampling
+├── Fair Relabeling
+├── Plot accuracy-fairness trade-off
+│   ├── Plot different classifiers for same dataset
+│   ├── Plot same classifier for different datasets
+│   ├── Plot same classifier/dataset for D_u & U
+
 ## Explanation of most important markdown sections
 - Import modules & define global variables: specify the path where to save all outputs here, to import datasets you have to manually change the code lines with ‘pd.read_csv(…)’
 - Functions - Detect group fairness: functions which measure group fairness
