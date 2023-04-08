@@ -26,7 +26,7 @@ In this project the fairness in datasets is measured. In addition unfairness pre
 │   ├── Communities and Crime
 │   ├── Bank Marketing
 │   ├── COMPAS
-│   ├── AdviceRobo
+│   └── AdviceRobo
 │       ├── Try age as sensitive attribute
 │       └── Continue with language as sensitive attribute
 ├── Individual fairness
