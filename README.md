@@ -17,7 +17,7 @@ In this project the fairness in datasets is measured. In addition unfairness pre
 │   ├── Detect group unfairness
 │   ├── Train classifier
 │   ├── Show metrics
-│   ├── Group unfairness prevention
+│   └── Group unfairness prevention
 ├── Load datasets + define sensitive/explanatory attributes
 │   ├── Toy example
 │   ├── Simulated data
@@ -28,11 +28,11 @@ In this project the fairness in datasets is measured. In addition unfairness pre
 │   ├── COMPAS
 │   ├── AdviceRobo
 │   │   ├── Try age as sensitive attribute
-│   │   ├── Continue with language as sensitive attribute
+│   │   └── Continue with language as sensitive attribute
 ├── Individual fairness
 │   ├── Optimize weights functions
 │   ├── Detect unfair instances functions
-│   ├── Get weights, d_matrix, m for all datasets
+│   └── Get weights, d_matrix, m for all datasets
 ├── Probabilistic Rejection
 ├── Fair Reweighing
 ├── Fair Preferential Sampling
@@ -40,7 +40,7 @@ In this project the fairness in datasets is measured. In addition unfairness pre
 ├── Plot accuracy-fairness trade-off
 │   ├── Plot different classifiers for same dataset
 │   ├── Plot same classifier for different datasets
-│   ├── Plot same classifier/dataset for D_u & U
+│   └── Plot same classifier/dataset for D_u & U
 ```
 
 ## Explanation of most important markdown sections
