@@ -27,8 +27,8 @@ In this project the fairness in datasets is measured. In addition unfairness pre
 │   ├── Bank Marketing
 │   ├── COMPAS
 │   ├── AdviceRobo
-│   │   ├── Try age as sensitive attribute
-│   │   └── Continue with language as sensitive attribute
+│       ├── Try age as sensitive attribute
+│       └── Continue with language as sensitive attribute
 ├── Individual fairness
 │   ├── Optimize weights functions
 │   ├── Detect unfair instances functions
@@ -37,10 +37,10 @@ In this project the fairness in datasets is measured. In addition unfairness pre
 ├── Fair Reweighing
 ├── Fair Preferential Sampling
 ├── Fair Relabeling
-├── Plot accuracy-fairness trade-off
-│   ├── Plot different classifiers for same dataset
-│   ├── Plot same classifier for different datasets
-│   └── Plot same classifier/dataset for D_u & U
+└── Plot accuracy-fairness trade-off
+    ├── Plot different classifiers for same dataset
+    ├── Plot same classifier for different datasets
+    └── Plot same classifier/dataset for D_u & U
 ```
 
 ## Explanation of most important markdown sections
