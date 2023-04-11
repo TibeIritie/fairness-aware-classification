@@ -42,7 +42,7 @@ In this project the fairness in datasets is measured. In addition unfairness pre
     ├── Plot different classifiers for same dataset
     ├── Plot same classifier for different datasets    
     ├── Plot same classifier/dataset for D_u & U
-    └── Plot trade-off between D_u & U  
+    └── Plot relationship between D_u & U
 
 ```
 
