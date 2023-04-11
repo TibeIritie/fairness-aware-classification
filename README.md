@@ -33,14 +33,17 @@ In this project the fairness in datasets is measured. In addition unfairness pre
 │   ├── Optimize weights functions
 │   ├── Detect unfair instances functions
 │   └── Get weights, d_matrix, m for all datasets
+├── Load metrics
 ├── Probabilistic Rejection
 ├── Fair Reweighing
 ├── Fair Preferential Sampling
 ├── Fair Relabeling
-└── Plot accuracy-fairness trade-off
+└── Plot fairness trade-off
     ├── Plot different classifiers for same dataset
-    ├── Plot same classifier for different datasets
-    └── Plot same classifier/dataset for D_u & U
+    ├── Plot same classifier for different datasets    
+    ├── Plot same classifier/dataset for D_u & U
+    └── Plot trade-off between D_u & U  
+
 ```
 
 ## Explanation of most important markdown sections
