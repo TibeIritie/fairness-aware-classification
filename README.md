@@ -1,4 +1,4 @@
-# Fairness-aware-classification
+# Fairness-aware classification
 
 ## Project description
 In this project the fairness in datasets is measured. In addition unfairness prevention techniques are applied for different classifiers after which the accuracy and fairness of the respective classifier is measured.
