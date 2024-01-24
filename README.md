@@ -1,7 +1,7 @@
 # Fairness-aware classification
 
 ## Project description
-In this project the fairness in datasets is measured. In addition unfairness prevention techniques are applied for different classifiers after which the accuracy and fairness of the respective classifier is measured.
+In this project, fairness in datasets is measured. Subsequently, unfairness prevention techniques are applied to different classifiers, after which the accuracy and fairness of each respective classifier are measured.
 - Datasets: Adult (adult.csv), COMPAS (compass-scores.csv) and AdviceRobo (not publicly available)
 - Datasets not suitable for research: Toy example, Simulated data, German Credit, Communities and Crime, Bank Marketing
 - Notions of fairness: conditional demographic parity (get_d_unfair()), individual fairness (get_unfair_instances())
