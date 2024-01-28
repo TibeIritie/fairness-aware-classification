@@ -56,4 +56,4 @@ In this project, fairness in datasets is measured. Subsequently, unfairness prev
 - Plot accuracy-fairness trade-off: code to plot the fairness against the accuracy per dataset or per classifier (currently all commented, but could be commented out if one wishes to use it)
 
 ## How to use the project
-If you wish to use a specific technique (with tuned hyperparameters) simply go to the respective markdown cell and comment out the classifier/dataset for which you wish to apply the technique on. Each function contains a docstring explaining the purpose of the function and its parameters/output. For some lines of code there exists some extra explanation as comment above the specific line.
+If you wish to use a specific technique (with tuned hyperparameters), simply navigate to the respective markdown cell and comment out the classifier/dataset on which you wish to apply the technique. Each function contains a docstring explaining the purpose of the function and its parameters/output. Additionally, there is extra explanation provided as a comment above certain lines of code.
